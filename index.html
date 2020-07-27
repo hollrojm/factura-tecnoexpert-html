@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FACTURA Tecnoexpert</title>
+    <link rel="stylesheet" href="Estilos/Style.css">
+</head>
+<body>
+    <header>
+        <div class="barra contenedor">
+            <h1>TecnoExpert.</h1>
+            <div class="numero-factura">
+            <form action="">
+                <p>Factura No.</p>
+                <p>001</p>
+            </form>
+            </div>
+        </div>
+    </header>
+    <section class="seccion contenedor">
+        <div class="articulo">
+        <form action="" class="formulario-articulo">
+            <div class="articulo-input">
+                <p><label for="" >Cedula :</label></p>
+                <input type="text" size="10" placeholder="Cedula cliente">
+                <p><label for="">Cliente :</label></p> 
+                <input type="text" size="40" placeholder="Nombre completo del cliente" >
+                <p> <label for="">Articulo :</label></p>
+                <input type="text" size="40" placeholder="Nombre del articulo completo">
+                <label for="">Valor :</label>
+                <input type="text" size="4" placeholder="0">
+               <label for="">Cantidad :</label>
+                <input size="1" type="number" min="0" max="99"placeholder="0">
+                
+                
+            </div>
+            <div class="articulo-input1">
+                <label for="">Fabricante :</label>
+                <select name="" id="">
+                    <option value="">--Seleccione un Fabricante--</option>
+                    <option value="Nal">Nacional</option>
+                    <option value="Imp">Importado</option>
+                </select>
+                <br>
+                <br>
+            <div class="descripcion">
+                <p>Descripción :</p>
+                <textarea name="" id="" cols="40" rows="5"
+                    placeholder="Ingresa la descripción del producto."></textarea>
+            </div>
+            </div>
+        </form>
+        </div>
+    </section>
+    <section class="seccion contenedor">
+        <div>
+            <table border="1">
+                <thead>
+                    <tr>
+                    <th><h3>Codigo</h3></th>
+                    
+                    <th><h3>Artículo</h3></th>
+                    <th><h3>Descripción</h3></th>
+                    <th><h3>Cantidad</h3></th>
+                    <th><h3>Valor Unitario</h3></th> 
+                    <th><h3>Fabricante</h3></th>
+                    <th><h3>Arancel</h3></th>
+                    
+                    <th><h3>Valor Total</h3></th>
+                    </tr>
+                </thead>
+                <tr class="fila1">
+                <td rowspan="1"></td>
+                <td rowspan="1"></td>
+                <td rowspan="1"></td>
+                <td rowspan="1"></td>
+                <td rowspan="1"></td>
+                <td rowspan="1"></td>
+                <td rowspan="1"></td>
+                <td rowspan="1"></td>
+                </tr>
+                <tr class="fila2">
+                      <td rowspan="1"></td>
+                      <td rowspan="1"></td>
+                      <td rowspan="1"></td>
+                      <td rowspan="1"></td>
+                      <td rowspan="1"></td>
+                       <td rowspan="1"></td>
+                       <td rowspan="1"></td>
+                       <td rowspan="1"></td>
+                    </tr>
+                       <tr class="fila3">
+                           <td rowspan="1"></td>
+                           <td rowspan="1"></td>
+                           <td rowspan="1"></td>
+                           <td rowspan="1"></td>
+                           <td rowspan="1"></td>
+                           <td rowspan="1"></td>
+                           <td rowspan="1"></td>
+                           <td rowspan="1"></td>
+                       </tr>
+                           <tr class="fila4">
+                               <td rowspan="1"></td>
+                               <td rowspan="1"></td>
+                               <td rowspan="1"></td>
+                               <td rowspan="1"></td>
+                               <td rowspan="1"></td>
+                               <td rowspan="1"></td>
+                               <td rowspan="1"></td>
+                               <td rowspan="1"></td>
+                           </tr>
+                                 <tr class="fila5">
+                                     <td rowspan="1"></td>
+                                     <td rowspan="1"></td>
+                                     <td rowspan="1"></td>
+                                     <td rowspan="1"></td>
+                                     <td rowspan="1"></td>
+                                     <td rowspan="1"></td>
+                                     <td rowspan="1"></td>
+                                     <td rowspan="1"></td>
+                                 </tr>
+            </table>
+        </div>
+    </section>
+    <section class=" contenedor">
+        <div class="frm-total">
+            <div class="total">
+            <form action="">
+                <label for="">SubTotal :</label>
+                <input class="input-total" type="text" size="5">
+                <label for="">IVA (19%) :</label>
+                <input class="input-total" type="text" size="5">
+                <label for="">Arancel :</label>
+                <input class="input-total" type="text" size="5">
+                <label for="">Total :  </label>
+                <input class="input-total" type="text" size="5">
+            </form>
+        </div>
+        </div>
+    </section>
+
+    
+</body>
+</html>
